@@ -9,6 +9,7 @@ pipeline {
     node {
       label 'nodejs'
   }
+}
   stages {
     stage ('Validate configuration resources') {
       steps {
